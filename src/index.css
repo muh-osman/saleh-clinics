@@ -42,7 +42,7 @@ body {
   margin-top: 10px;
   width: 70px;
   height: 3px;
-  background-color: #b99b5f;
+  background-color: #51ace6;
   display: block;
   border-radius: 3px;
 }
@@ -107,7 +107,7 @@ body {
 }
 
 .socials svg:hover {
-  fill: #b99b5f;
+  fill: #51ace6;
 }
 
 .footer-section .socials a img {
@@ -139,6 +139,10 @@ body {
   .footer-section .help-list ul li a,
   .footer-section .help-list ul li button {
     font-size: 13px;
+  }
+
+  .footer-section .help-list ul {
+    padding-left: 0;
   }
 }
 .footer-section .footer-contact {
@@ -305,7 +309,7 @@ body {
 
 .footer-section ul li a:hover,
 .footer-section ul li button:hover {
-  color: #e6d39c;
+  color: #51ace6;
 }
 
 /* Start Whatsapp Icon */
@@ -352,8 +356,8 @@ body {
 
 /* Bootstrap Form */
 .btn-primary {
-  background-color: #b99b5f !important;
-  border-color: #b99b5f !important;
+  background-color: #51ace6 !important;
+  border-color: #51ace6 !important;
 }
 .btn-primary:hover,
 .btn-primary:focus {
@@ -362,6 +366,6 @@ body {
 }
 
 .form-control:focus {
-  border-color: #b99b5f !important;
-  box-shadow: 0 0 0 0.25rem #b99b5f7a !important;
+  border-color: #51ace6 !important;
+  box-shadow: 0 0 0 0.25rem #51ace67a !important;
 }

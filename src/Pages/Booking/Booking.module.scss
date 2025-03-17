@@ -63,12 +63,34 @@
       }
     }
   }
+
+  .text_container {
+    width: 100%;
+    height: calc(100% - 122px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+
+    h1 {
+      font-size: 58px;
+      text-align: center;
+      margin-bottom: 32px;
+
+      @media (max-width: 700px) {
+        font-size: 30px;
+        margin-bottom: 64px;
+      }
+    }
+  }
 }
 
 .container {
   padding: 16px;
   padding-top: 0;
   background-color: #fbfbfb;
+  height: fit-content;
 }
 
 .hero_box {
@@ -207,5 +229,15 @@
   span {
     color: #383c45;
     font-weight: bold;
+  }
+}
+
+.zxc {
+  //   background-color: red;
+  height: fit-content;
+  height: 950px;
+
+  @media (max-width: 575px) {
+    height: 1800px;
   }
 }

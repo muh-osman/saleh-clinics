@@ -173,7 +173,7 @@ export default function PrivacyPolicy() {
         <div className={style.long_text}>
           <div className={style.hero_text_box} dir="ltr">
             <h1 dir="rtl" style={{ marginBottom: "8px" }}>
-              اتصل بنا
+              تواصل معنا
             </h1>
             <p dir="rtl">
               إذا كانت لديكم أي أسئلة أو استفسارات حول سياسة الخصوصية، يرجى

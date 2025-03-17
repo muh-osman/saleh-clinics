@@ -21,6 +21,21 @@
 
 .text_box {
   align-self: flex-start;
+
+  h5 {
+    margin-top: 32px;
+    margin-bottom: 16px;
+  }
+
+  ul {
+    padding-right: 32px;
+    padding-left: 0;
+  }
+
+  li {
+    margin-bottom: 16px;
+    color: #757575;
+  }
 }
 
 .text_box,

@@ -24,11 +24,12 @@ import Add from "./Pages/Dashboard/Add/Add";
 import Edit from "./Pages/Dashboard/Edit/Edit";
 import Delete from "./Pages/Dashboard/Delete/Delete";
 import NotFound from "./Pages/NotFound/NotFound";
-import Services from "./Pages/Services/Services";
+// import Services from "./Pages/Services/Services";
 import Contact from "./Pages/Contact/Contact";
 import PrivacyPolicy from "./Pages/PrivacyPolicy/PrivacyPolicy";
 import Riyadh from "./Pages/Riyadh/Riyadh";
 import Jeddah from "./Pages/Jeddah/Jeddah";
+// import Booking from "./Pages/Booking/Booking";
 
 export default function App() {
   const router = createBrowserRouter(
@@ -38,8 +39,9 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="blog" element={<Blog />} />
           <Route path="about" element={<About />} />
-          <Route path="services" element={<Services />} />
+          {/* <Route path="services" element={<Services />} /> */}
           <Route path="contact" element={<Contact />} />
+          {/* // <Route path="booking" element={<Booking />} /> */}
           <Route path="riyadh" element={<Riyadh />} />
           <Route path="jeddah" element={<Jeddah />} />
           <Route path="privacy-policy" element={<PrivacyPolicy />} />

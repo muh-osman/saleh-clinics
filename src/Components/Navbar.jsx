@@ -33,9 +33,9 @@ export default function Navbar() {
           <div className={style.big_screen_links}>
             <Link to="/about">من نحن</Link>
           </div>
-          <div className={style.big_screen_links}>
+          {/* <div className={style.big_screen_links}>
             <a href="https://smwalinsaf.com/blog/">المدونة</a>
-          </div>
+          </div> */}
           {location.pathname === "/" ? (
             <div className={style.big_screen_links}>
               <a href="#faq">الأسئلة الشائعة</a>
@@ -45,9 +45,9 @@ export default function Navbar() {
               <Link to={"/#faq"}>الأسئلة الشائعة</Link>
             </div>
           )}
-          <div className={style.big_screen_links}>
+          {/* <div className={style.big_screen_links}>
             <Link to="/services">خدماتنا</Link>
-          </div>
+          </div> */}
           <div className={style.big_screen_links}>
             <Link to="/">الرئيسية</Link>
           </div>
@@ -72,9 +72,9 @@ export default function Navbar() {
           <div className={style.small_screen_links}>
             <Link to="/about">من نحن</Link>
           </div>
-          <div className={style.small_screen_links}>
+          {/* <div className={style.small_screen_links}>
             <a href="https://smwalinsaf.com/blog/">المدونة</a>
-          </div>
+          </div> */}
           {location.pathname === "/" ? (
             <div className={style.small_screen_links}>
               <a href="#faq">الأسئلة الشائعة</a>
@@ -84,9 +84,9 @@ export default function Navbar() {
               <Link to={"/#faq"}>الأسئلة الشائعة</Link>
             </div>
           )}
-          <div className={style.small_screen_links}>
+          {/* <div className={style.small_screen_links}>
             <Link to="/services">خدماتنا</Link>
-          </div>
+          </div> */}
           <div className={style.small_screen_links}>
             <Link to="/">الرئيسية</Link>
           </div>

@@ -13,14 +13,16 @@ export default function Banner() {
     <div className={style.top_banner_container}>
       <div className={style.box}>
         <div className={style.left_box}>
-          <div className={style.login_btn}>
+
+          {/* <div className={style.login_btn}>
             <Link to="/">
               <span>تسجيل الدخول</span>
               <span>
                 <PersonIcon />
               </span>
             </Link>
-          </div>
+          </div> */}
+
           <div className={style.social_icons}>
             <div>
               <a href="https://www.instagram.com/">
@@ -41,9 +43,9 @@ export default function Banner() {
         </div>
         <div className={style.right_box}>
           <div>
-            <a href="mailto:smwalinsaf@gmail.com">
+            <a href="mailto:salehslpclinic@gmail.com">
               <span className={style.hide} style={{ color: "#fff" }}>
-                smwalinsaf@gmail.com
+                salehslpclinic@gmail.com
               </span>
               <span>
                 <EmailIcon sx={{ fontSize: "18px" }} />
@@ -51,9 +53,9 @@ export default function Banner() {
             </a>
           </div>
           <div>
-            <a href="tel:0506486173">
+            <a href="tel:0537312399">
               <span className={style.hide} style={{ color: "#fff" }}>
-                0506486173
+                0537312399
               </span>
               <span>
                 <PhoneEnabledIcon sx={{ fontSize: "18px" }} />

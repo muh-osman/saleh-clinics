@@ -4,7 +4,7 @@
   background-image: url(../Assets/Images/backdrop.png);
 
   h1 {
-    color: #b99b5f;
+    color: #51ace6;
     text-align: center;
     margin-top: 48px;
     font-weight: 800;
@@ -46,6 +46,11 @@
   gap: 16px;
   flex: 1;
 
+  svg {
+    width: 77px;
+    fill: #51ace6;
+  }
+
   div {
     display: flex;
     align-items: center;
@@ -53,7 +58,7 @@
   }
 
   h3 {
-    color: #b99b5f;
+    color: #51ace6;
     text-align: center;
     font-size: 23px;
   }
@@ -64,7 +69,7 @@
   }
 
   svg {
-    color: #b99b5f;
+    color: #51ace6;
     font-size: 88px;
   }
 

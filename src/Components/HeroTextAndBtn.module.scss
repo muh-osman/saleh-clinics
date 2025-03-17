@@ -37,11 +37,19 @@
 
   a,
   button {
-    font-size: 16px;
-    padding: 9px 48px;
-    color: #fff;
-    border: none;
-    background-color: #b99b5f;
+    font-size: 16px !important;
+    padding: 9px 48px !important;
+    color: #fff !important;
+    border: none !important;
+    // background-color: #51ace6 !important;
+    border-radius: 0 !important;
+    font-family: "Cairo", serif !important;
+    font-weight: 500 !important;
+    width: 174px !important;
+  }
+
+  button {
+    height: 42px !important;
   }
 
   :first-child {

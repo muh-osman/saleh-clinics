@@ -8,7 +8,7 @@
     text-align: center;
     margin-top: 32px;
     margin-bottom: 12px;
-    color: #b99b5f;
+    color: #51ace6;
   }
 
   .subTitle {
@@ -50,8 +50,9 @@
   aspect-ratio: 1 / 1;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
     rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-  border-bottom: 1px solid #b99b5f;
+  border-bottom: 1px solid #51ace6;
   background-color: #181d21;
+  cursor: pointer;
 
   @media (max-width: 650px) {
     flex: 1 0 29%;
@@ -66,7 +67,7 @@
   }
 
   p {
-    color: #b99b5f;
+    color: #51ace6;
     margin: 0;
 
     @media (max-width: 650px) {

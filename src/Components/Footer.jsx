@@ -14,10 +14,10 @@ export default function Footer() {
             </div>
 
             <p className="footer-intro">
-              الصحراء الكبرى، 12583، عرقة، الرياض 12583، السعودية
+              عيادات صالح العجلان للتخاطب قوة الحركة, طريق سعيد ابن زيد، قرطبة،
+              الرياض 13248، المملكة العربية السعودية
               <br />
-              🕗 من السبت إلى الخميس من الساعة 08:00 صباحا - وحتى الساعة 8:00
-              مساء
+              🕗 من الساعة 2 مساء حتى الساعة 9 مساء
             </p>
 
             <div className="socials">
@@ -56,7 +56,7 @@ export default function Footer() {
                   <h4>فروعنا</h4>
                   <ul>
                     <li>
-                      <a href="https://maps.app.goo.gl/Bp41TXcygjcr3fpg8">
+                      <a href="https://maps.app.goo.gl/pk4sjVgU437YfWNw8">
                         الرياض{" "}
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -77,49 +77,26 @@ export default function Footer() {
                         </svg>
                       </a>
                     </li>
-
-                    <li>
-                      <a href="https://maps.app.goo.gl/CRBrNCUtovBte4cZ7">
-                        جدة{" "}
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          className="bi bi-box-arrow-up-right"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"
-                          />
-                          <path
-                            fillRule="evenodd"
-                            d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"
-                          />
-                        </svg>
-                      </a>
-                    </li>
                   </ul>
                 </div>
               </div>
 
-              <div className="col-xl-3 col-md-6 col-6">
+              <div className="col-xl-4 col-md-6 col-6">
                 <div className="help-list">
                   <h4>خدماتنا</h4>
                   <ul>
                     <li>
-                      <Link to="services">الاستشارات القانونية</Link>
+                      <Link to="/">تشخيص اضطرابات النطق</Link>
                     </li>
 
                     <li>
-                      <Link to="services">إدارة القضايا</Link>
+                      <Link to="/">علاج اضطرابات التواصل</Link>
                     </li>
                   </ul>
                 </div>
               </div>
 
-              <div className="col-xl-3 col-md-6 col-6">
+              {/* <div className="col-xl-3 col-md-6 col-6">
                 <div className="help-list">
                   <h4>روابط مهمة</h4>
                   <ul>
@@ -132,29 +109,17 @@ export default function Footer() {
                     </li>
                   </ul>
                 </div>
-              </div>
+              </div> */}
 
               <div className="col-xl-3 col-md-6 col-6 contact-us">
                 <div className="footer-contact">
                   <h4>تواصل معنا</h4>
                   <ul>
                     <li className="footer-contact-li">
-                      <span className="me-0">فرع الرياض</span>
+                      <span className="me-0">جوال</span>
                       <p>
-                        <a dir="ltr" href="tel:0509997635">
-                          0509997635
-                        </a>
-                        {/* <a dir="ltr" href="tel:0112105999">
-                          0112105999
-                        </a> */}
-                      </p>
-                    </li>
-
-                    <li className="footer-contact-li">
-                      <span className="me-0">فرع جدة</span>
-                      <p>
-                        <a dir="ltr" href="tel:0506486173">
-                          0506486173
+                        <a dir="ltr" href="tel:0537312399">
+                          0537312399
                         </a>
                         {/* <a dir="ltr" href="tel:0126677776">
                           0126677776
@@ -174,8 +139,8 @@ export default function Footer() {
                     <li className="footer-contact-li">
                       <span className="me-0">بريد الكتروني</span>
                       <p>
-                        <a dir="rtl" href="mailto:help@smwalinsaf.com">
-                          help@smwalinsaf.com
+                        <a dir="rtl" href="mailto:salehslpclinic@gmail.com">
+                          salehslpclinic@gmail.com
                         </a>
                       </p>
                     </li>
@@ -189,8 +154,8 @@ export default function Footer() {
         <div className="rights-section mt-0">
           <div className="rights-info">
             <p className="m-0 mt-4 text-center">
-              حقوق النشر © 2025 جميع الحقوق محفوظة - شركة سمو الإنصاف للمحاماة
-              والاستشارات القانونية
+              حقوق النشر © 2025 جميع الحقوق محفوظة - عيادات صالح العجلان للتخاطب
+              وتعديل السلوك
             </p>
           </div>
         </div>
@@ -202,7 +167,7 @@ export default function Footer() {
         aria-label="WhatsApp Customer Service"
         className="sticky-icon"
         target="_blank"
-        href="https://wa.me/966506486173"
+        href="https://wa.me/966537312399"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
