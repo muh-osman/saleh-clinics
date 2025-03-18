@@ -457,6 +457,7 @@ body {
 .services-section .service-card ul {
   margin: 20px 0 0;
   list-style: none;
+  padding: 0;
 }
 
 .services-section .service-card ul li {
