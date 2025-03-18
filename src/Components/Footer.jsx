@@ -116,7 +116,7 @@ export default function Footer() {
                   <h4>تواصل معنا</h4>
                   <ul>
                     <li className="footer-contact-li">
-                      <span className="me-0">جوال</span>
+                      <span className="me-0">هاتف</span>
                       <p>
                         <a dir="ltr" href="tel:0537312399">
                           0537312399
