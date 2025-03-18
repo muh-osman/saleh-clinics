@@ -8,7 +8,7 @@ import SecThree from "../../Components/SecThree";
 import SecFour from "../../Components/SecFour";
 import SecFive from "../../Components/SecFive";
 import SecSix from "../../Components/SecSix";
-// import SecSeven from "../../Components/SecSeven";
+import SecSeven from "../../Components/SecSeven";
 import SecEight from "../../Components/SecEight";
 import Footer from "../../Components/Footer";
 import SecNine from "../../Components/SecNine";
@@ -29,7 +29,7 @@ export default function Home() {
       <SecFour />
       <SecFive />
       <SecSix />
-      {/* <SecSeven /> */}
+      <SecSeven />
       <SecEight />
       <SecNine />
       <Footer />
